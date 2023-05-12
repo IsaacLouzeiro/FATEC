@@ -6,31 +6,31 @@
 
 // 1- Inclusao
 // 2- Consulta
-// 3- Alteração
-// 4- Exclusão
+// 3- AlteraÃ§Ã£o
+// 4- ExclusÃ£o
 // 5- Sair
 
-// Usar laco de repetição para mostrar enquanto
-// o usuário não selecionar 5.
+// Usar laco de repetiÃ§Ã£o para mostrar enquanto
+// o usuÃ¡rio nÃ£o selecionar 5.
 
 void exercicioLacoDeRepeticaoFor() {
   int opcao;
 
   for(int opcao = 0; opcao != 5;) {
-    printf("===== Menu de usuário =====\n");
-    printf("===== 1 - Inclusão    =====\n");
+    printf("===== Menu de usuÃ¡rio =====\n");
+    printf("===== 1 - InclusÃ£o    =====\n");
     printf("===== 2 - Consulta    =====\n");
-    printf("===== 3 - Alteração   =====\n");
-    printf("===== 4 - Exclusão    =====\n");
+    printf("===== 3 - AlteraÃ§Ã£o   =====\n");
+    printf("===== 4 - ExclusÃ£o    =====\n");
     printf("===== 5 - Sair        =====\n");
     printf("===========================\n");
-    printf("Digite uma opção: ");
+    printf("Digite uma opÃ§Ã£o: ");
     scanf("%d", &opcao);
 
     system("cls");
 
     if(opcao <= 0 || opcao > 5) {
-      printf("Digite uma opção válida!\n\n");
+      printf("Digite uma opÃ§Ã£o vÃ¡lida!\n\n");
     }
 
   }
@@ -41,20 +41,20 @@ void exercicioLacoDeRepeticaoWhile() {
   int opcao = 0;
 
   while(opcao != 5) {
-    printf("===== Menu de usuário =====\n");
-    printf("===== 1 - Inclusão    =====\n");
+    printf("===== Menu de usuÃ¡rio =====\n");
+    printf("===== 1 - InclusÃ£o    =====\n");
     printf("===== 2 - Consulta    =====\n");
-    printf("===== 3 - Alteração   =====\n");
-    printf("===== 4 - Exclusão    =====\n");
+    printf("===== 3 - AlteraÃ§Ã£o   =====\n");
+    printf("===== 4 - ExclusÃ£o    =====\n");
     printf("===== 5 - Sair        =====\n");
     printf("===========================\n");
-    printf("Digite uma opção: ");
+    printf("Digite uma opÃ§Ã£o: ");
     scanf("%d", &opcao);
 
     system("cls");
 
     if(opcao <= 0 || opcao > 5) {
-      printf("Digite uma opção válida!\n\n");
+      printf("Digite uma opÃ§Ã£o vÃ¡lida!\n\n");
     }
   }
   return;
@@ -64,20 +64,20 @@ void exercicioLacoDeRepeticaoDoWhile() {
   int opcao;
 
   do {
-    printf("===== Menu de usuário =====\n");
-    printf("===== 1 - Inclusão    =====\n");
+    printf("===== Menu de usuÃ¡rio =====\n");
+    printf("===== 1 - InclusÃ£o    =====\n");
     printf("===== 2 - Consulta    =====\n");
-    printf("===== 3 - Alteração   =====\n");
-    printf("===== 4 - Exclusão    =====\n");
+    printf("===== 3 - AlteraÃ§Ã£o   =====\n");
+    printf("===== 4 - ExclusÃ£o    =====\n");
     printf("===== 5 - Sair        =====\n");
     printf("===========================\n");
-    printf("Digite uma opção: ");
+    printf("Digite uma opÃ§Ã£o: ");
     scanf("%d", &opcao);
 
     system("cls");
 
     if(opcao <= 0 || opcao > 5) {
-      printf("Digite uma opção válida!\n\n");
+      printf("Digite uma opÃ§Ã£o vÃ¡lida!\n\n");
     }
   } while(opcao != 5);
   return;
@@ -88,16 +88,16 @@ int main(void) {
 
   int exercicio;
 
-  printf("====== Exercício laço de repetição ======\n");
+  printf("====== ExercÃ­cio laÃ§o de repetiÃ§Ã£o ======\n");
   printf("====== 1 - Com For                 ======\n");
   printf("====== 2 - Com While               ======\n");
   printf("====== 3 - Com Do While            ======\n");
   printf("=========================================\n");
-  printf("Digite uma opção: ");
+  printf("Digite uma opÃ§Ã£o: ");
   scanf("%d", &exercicio);
 
   if(exercicio <= 0 || exercicio > 3) {
-    printf("Digite uma opção válida!\n");
+    printf("Digite uma opÃ§Ã£o vÃ¡lida!\n");
   }
 
   system("cls");
@@ -113,7 +113,7 @@ int main(void) {
     exercicioLacoDeRepeticaoDoWhile();
     break;
     default:
-    printf("Opção Inválida!");
+    printf("OpÃ§Ã£o InvÃ¡lida!");
     break;
   }
   return 0;
